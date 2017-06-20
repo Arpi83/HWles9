@@ -1,0 +1,115 @@
+body{
+    margin:0;
+    padding:0;
+}
+header{
+    
+    margin:0;
+    width:100%;
+    height: 50px;
+    background-color: #0078CF;
+}
+header img{
+    width: 180px;
+}
+main{
+    position:relative;
+}
+
+aside,ul{
+   
+    width:180px;
+    height:600px;
+    margin:0;
+    padding:0;
+    background-color: #3F4859;
+    list-style-type: none;  
+    
+   
+    
+}
+li{ 
+    
+     padding:10px;  
+    
+}
+ a  {
+    
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+}
+ aside ul li:hover{
+     
+     background-color: #676E7B;
+     
+ } 
+.small {
+    color:#676E7B;
+    font-size: small;
+}
+.small:hover{
+color:white;
+}
+.help{
+    text-decoration: none;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    padding:5px 15px;
+    color:white;
+    border:1px solid white;
+    border-radius: 14px;
+}
+
+section{
+    width:300px;
+    height:500px;
+    
+    overflow: auto;
+    position:absolute;
+    top:50px;
+    left:180px;
+}
+div {
+    margin:10px;
+    padding:5px;
+}
+button{
+    position: absolute;
+    bottom:0;
+    width:300px;
+    height:50px;
+    left:180px;
+    background-color: #0078CF;
+    
+
+}
+#fix{
+    width: 300px;
+    height:50px;
+    position:absolute;
+    top:0;
+    left:180px;
+    
+    
+}
+select{
+margin-left:120px;
+padding: 10px 30px;
+border-radius:18px;
+}
+h1{
+    display:inline;
+    width:20px;
+    background-color: #B1C9D4;
+    padding: 10px 12px;
+    border-radius: 12px;
+    color:white;
+}
+h4{
+    display:inline;
+}
+hr{
+    border:1px solid  #C1C1C1;
+}
